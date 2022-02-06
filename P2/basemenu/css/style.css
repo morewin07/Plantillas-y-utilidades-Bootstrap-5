@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

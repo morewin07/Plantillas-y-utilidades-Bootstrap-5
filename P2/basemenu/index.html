@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Plantilla Bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">TM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Barra lateral -->
+
+    <div class="container-fluid m-0">
+        <div class="row">
+            <div class="col-3 bg-secondary">
+                <div class="container">
+                    <div class="row text-light mt-2 ">
+                        <p class="text-light text-center mt-2">Barra Lateral</p>
+
+                        <button class="mt-5 btn btn-outline-light" type="menu">PRODUCTOS</button>
+                        <button class="mt-2 btn btn-outline-light" type="menu">PRECIOS</button>
+                        <button class="mt-2 btn btn-outline-light" type="menu">INFORMACIÓN</button>
+                        <button class="mt-2 btn btn-outline-light" type="menu">ENCUENTRANOS</button>
+                    </div>
+
+                </div>
+            </div>
+            <section class="col-8 bg-light mt-2">
+                <div class="text-center">
+                    <h1 class="display-6">Contáctanos</h1>
+                    <hr class="w-25 mx-auto" />
+                </div>
+                <div class="container">
+                    <div class="row row-offcanvas row-offcanvas-left">
+
+                        <div class="row pt-5">
+                            <div class="col-10 col-md-8 col-xxl-8 mx-auto">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Dirección de correo</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">No compartiremos tu correo con nadie.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Nombre</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="pr-4">Género</label>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                            <label class="form-check-label" for="inlineRadio1">Masculino</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                            <label class="form-check-label" for="inlineRadio2">Femenino</label>
+                                        </div>
+                                        <div class="my-3">
+                                            <label for="exampleDataList" class="form-label">Dirección</label>
+                                            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Pulsa para buscar...">
+                                            <datalist id="datalistOptions">
+                      <option value="Sevilla"></option>
+                      <option value="Madrid"></option>
+                      <option value="Granada"></option>
+                      <option value="Barcelona"></option>
+                      <option value="Vigo"></option>
+                    </datalist>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Texto</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Confirmar</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+            </section>
+
+            <footer>
+                <div class="bg-secondary text-center text-white">
+                    <p>@Copyright Tomás Moreno</p>
+                </div>
+            </footer>
+
+            <!-- Optional JavaScript; choose one of the two! -->
+
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="js/script.js"></script>
+            <script src="./js/bootstrap.bundle.min.js"></script>
+            <!-- Option 2: Separate Popper and Bootstrap JS -->
+            <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

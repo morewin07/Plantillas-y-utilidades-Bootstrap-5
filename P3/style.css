@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 90vh;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
